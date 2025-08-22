@@ -1,0 +1,14 @@
+[
+{
+  "directory": "E:/2023freshman/games101/build",
+  "command": "E:\\mingw64\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe  @CMakeFiles/hw0.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\hw0.dir\\Code\\hw0.cpp.obj -c E:\\2023freshman\\games101\\Project\\Code\\hw0.cpp",
+  "file": "E:/2023freshman/games101/Project/Code/hw0.cpp",
+  "output": "CMakeFiles/hw0.dir/Code/hw0.cpp.obj"
+},
+{
+  "directory": "E:/2023freshman/games101/build",
+  "command": "E:\\mingw64\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe  @CMakeFiles/test.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\test.dir\\Code\\test.cpp.obj -c E:\\2023freshman\\games101\\Project\\Code\\test.cpp",
+  "file": "E:/2023freshman/games101/Project/Code/test.cpp",
+  "output": "CMakeFiles/test.dir/Code/test.cpp.obj"
+}
+]

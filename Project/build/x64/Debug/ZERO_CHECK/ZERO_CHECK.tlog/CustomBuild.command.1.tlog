@@ -1,0 +1,10 @@
+^E:\2023FRESHMAN\GAMES101\PROJECT\BUILD\CMAKEFILES\4DD0562E1700D3819EE66B6328807D7F\GENERATE.STAMP.RULE
+setlocal
+"E:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/2023freshman/games101/Project -BE:/2023freshman/games101/Project/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/2023freshman/games101/Project/build/Games101.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

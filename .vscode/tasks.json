@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build test.cpp with MSVC",
+            "type": "shell",
+            "command": "cl",
+            "args": [
+                "/EHsc",
+                "/I", "E:/2023freshman/games101/eigen",
+                "hw0/test.cpp"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$msCompile"]
+        }
+    ]
+}
